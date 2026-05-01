@@ -4,6 +4,7 @@ const background = document.querySelector('.background');
 const btnTopo = document.querySelector('.btn-topo');
 const header = document.querySelector('header');
 
+
 /* FICAR DE OLHO, QUANDO MEU BOTÃO LATERAL FOR CLICADO, ADICIONA AS CLASSES ACTIVE MO MEU MENU LATERAL,AÍ APARECE, E DESAPARECE SE CLICADO NOVAMENTE*/
 btnLateral.addEventListener('click', () => {
   btnLateral.classList.toggle('active');
